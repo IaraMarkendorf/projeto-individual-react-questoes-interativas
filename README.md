@@ -1,12 +1,65 @@
-# React + Vite
+# 🚀 Projeto React - Questões Interativas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte das atividades do **Curso de Desenvolvimento Full Stack - Serratec**, com o objetivo de praticar conceitos fundamentais do React, como componentes, estados, eventos e rotas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Sobre o Projeto
 
-## Expanding the ESLint configuration
+O sistema apresenta três funcionalidades distribuídas em diferentes rotas:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎨 **Questão 01** – Alternância entre tema claro e escuro  
+- 💬 **Questão 02** – Exibição de mensagem dinâmica ao clicar em um botão  
+- 📝 **Questão 03** – Lista de tarefas com entrada e exibição interativa  
+
+A tela inicial (**Home**) permite navegar entre essas funcionalidades por meio de links estilizados.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
+---
+
+## 🧩 Funcionalidades
+
+### 🏠 Home
+- Página principal com navegação entre as questões.
+
+### 🌗 Questão 01 – Troca de Tema
+- Um botão alterna entre tema claro e escuro dinamicamente com uso de `useState`.
+
+### 💬 Questão 02 – Mensagem
+- Mostra uma mensagem de boas-vindas ao clicar em "Entrar".
+
+### ✅ Questão 03 – Lista de Tarefas
+- Permite adicionar itens em uma lista de tarefas com campo de texto e botão de ação.
+
+---
+
+## 🎨 Estilo
+
+O projeto utiliza um arquivo `styles.css` para centralizar a personalização dos componentes com:
+
+- Botões estilizados com cores suaves e responsividade
+- Textos centralizados
+- Lista sem marcações padrão (`list-style: none`)
+- Links com estilos próprios, sem sublinhado
+
+---
+
+## 📁 Estrutura de Pastas
+
+📦 src/
+├── 📂 pages/
+│ ├── Home.jsx
+│ ├── Questao1.jsx
+│ ├── Questao2.jsx
+│ └── Questao3.jsx
+├── App.jsx
+├── index.jsx
+├── styles.css
+
