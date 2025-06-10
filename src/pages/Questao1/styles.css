@@ -1,0 +1,42 @@
+/* Estilos base */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* Tema claro */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Tema escuro */
+.dark {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.titulo {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+/* Botão primário */
+.btn-primary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #53136e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a920e3;
+}
